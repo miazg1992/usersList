@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.1.0",
+    "node-sass": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -21,13 +22,13 @@
     "eject": "react-scripts eject"
   },
   "lint-staged": {
-     "src/**/*.{js,json,css,scss}": [
-       "prettier --write"
-     ]
-   },
+    "src/**/*.{js,json,css,scss}": [
+      "prettier --write"
+    ]
+  },
   "husky": {
     "hooks": {
-    "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "browserslist": {

@@ -1,9 +1,10 @@
 import React from 'react';
 import { users } from 'data/users';
-import UsersListItem from './UsersListItem';
+import UsersListItem from '../UsersListItem/UsersListItem';
+import styles from './UsersList.module.scss';
 
 const UsersList = () => (
-  <div>
+  <div className={styles.container}>
     <ul>
       {users.map((userData) => (
         <UsersListItem userData={userData} />
