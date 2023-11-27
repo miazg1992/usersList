@@ -13,4 +13,9 @@ export const users = [
     attendance: '85%',
     average: '7.3',
   },
+  {
+    name: 'Ola',
+    attendance: '5%',
+    average: '0.3',
+  },
 ];
