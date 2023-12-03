@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import { users } from 'data/users';
 import UsersListItem from 'components/molecules/UsersListItem/UsersListItem';
+console.log('i');
 
 const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.white};
@@ -16,8 +17,8 @@ const Wrapper = styled.div`
 const UsersList = () => (
   <Wrapper>
     <ul>
-      {users.map((userData) => (
-        <UsersListItem userData={userData} />
+      {users.map((userData, index) => (
+        <UsersListItem userData={userData} index={index} key={userData.name} />
       ))}
     </ul>
   </Wrapper>

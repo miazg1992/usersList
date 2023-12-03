@@ -20,7 +20,6 @@ export const StyledAverage = styled.div`
   height: 34px;
   border-radius: 50px;
   background-color: ${({ average, theme }) => {
-    console.log(average, theme);
     let averageNumber = parseFloat(average);
     if (averageNumber <= 2) return theme.colors.error;
     if (averageNumber <= 5) return theme.colors.warning;
