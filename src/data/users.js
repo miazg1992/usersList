@@ -1,15 +1,15 @@
 export const users = [
   {
-    name: 'Antoni Miazga',
+    name: 'Antoni',
     attendance: '45%',
     average: '4.3',
   },
   {
-    name: 'Franciszek Miazga',
+    name: 'Franciszek',
     average: '4.75',
   },
   {
-    name: 'Bartłomiej Miazga',
+    name: 'Bartłomiej',
     attendance: '85%',
     average: '7.3',
   },

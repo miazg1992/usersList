@@ -19,7 +19,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Wrapper>
-        <UsersList />
+        <UsersList title="Lista użytkowników" />
       </Wrapper>
     </ThemeProvider>
   );
